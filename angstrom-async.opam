@@ -22,7 +22,7 @@ build: [
 depends: [
   "ocaml" {>= "4.04.1"}
   "dune" {>= "3.0"}
-  "angstrom" {>= "0.7.0"}
+  "angstrom" {= version}
   "async" {>= "v0.10.0"}
   "core_bench" {with-test}
   "core_unix" {with-test & >= "v0.15.0"}
